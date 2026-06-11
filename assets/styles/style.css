@@ -4,6 +4,7 @@
 }
 *{
      box-sizing: border-box;
+     scroll-behavior: smooth;
 }
 body{
     font-family:var(--mainFont);
@@ -36,7 +37,7 @@ main{
     width: 100%
 }
 .profile img{
-    width: 100px;
+    width: 200px;
 }
 .card{
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0,.2);
@@ -94,6 +95,12 @@ aside{
       text-align: center;
     }
     .profile img{
-        width: 300px;
+        width: 100px;
+    }
+    aside section h3{
+        text-align: center;
+    }
+    aside table{
+       margin: auto;
     }
 }
